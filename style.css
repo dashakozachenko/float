@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box ;
+}
+
+body {
+    margin: 0%;
+}
+
+.container {
+    width: 100%;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 200px;
+    float: left;
+    background-color: cadetblue;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.card.right {
+    float: right;
+    margin-right: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.card.big {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.icon {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    float: right;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.item {
+    width: 100px;
+    background-color: cadetblue;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+ .item.big {
+     width: 200px;
+     text-align: center;
+ }
+
+.card-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.card-info {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    margin-right: 20px;
+}
+
+.card-text:last-child{
+    margin-bottom: 0px;
+}
+
+.card-text {
+    background-color: cadetblue;
+    margin-top: 0px;
+    
+}
+
+.card.list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-center {
+    display: block;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listleft {
+    float: left;
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card-right {
+    float: right;
+}
